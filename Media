@@ -1,7 +1,50 @@
 public class Media{
   public double price;
   public String name;
-  public String Authur;
   public boolean isPopular;
   public int time;
-}
+  
+  public class Media
+  {
+    if(getClass().getName() == "Album")
+    {
+      price = 19.99;
+      name = "Surfers paradise";
+      isPopular = true;
+      time = 2015;
+    }
+    else if(getClass().getName() == "Books")
+    {
+      price = 9.99;
+      name = "Red Sorghum: A Novel of China";
+      isPopular = true;
+      time = 2006; 
+    }
+    else is(getClass().getName() == "Film")
+    {
+      price = 666.6;
+      name = "New Beijing Story";
+      isPopular = false;
+      time = 2016;
+    }
+    else
+    {
+      price = 0.01;
+      name = "null"
+      isPopular = false;
+      time = 2000;
+    }
+ }
+ 
+  public String toString()
+  {
+    String output = "Media : " + getClass().getName() + "\n" +
+    "Price : " + price + "\n" +
+    "Name : " + name + "\n" +
+    "isPopular : " + isPopular + "\n" +
+    "Time : " + time + "\n";
+ 
+    return output;
+  }
+ 
+ }
