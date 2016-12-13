@@ -10,9 +10,9 @@ public class Album extends Media
         winGoldenGlobeAward = true;
     }
     
-    public Album(double price,String name,int time,boolean isPopular,String Composer,boolean winGoldenGlobeAward)
+    public Album(double price,String name,boolean isPopular,int time,String Composer,boolean winGoldenGlobeAward)
     {
-        super(price,name,time,isPopular);
+        super(price,name,isPopular,time);
         this.Composer = Composer;
         this.winGoldenGlobeAward = winGoldenGlobeAward;
     }
