@@ -1,1 +1,5 @@
-
+public class Books{
+  public int pages;
+  
+  public String toString(){
+  return super.toString
