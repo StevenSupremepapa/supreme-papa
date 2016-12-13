@@ -10,9 +10,9 @@ public class Film extends Media
         boxOffice = 8888;
     }
     
-    public Film(double price,String name,int time,boolean isPopular,String Director,double boxOffice)
+    public Film(double price,String name,boolean isPopular,int time,String Director,double boxOffice)
     {
-        super(price,name,time,isPopular);
+        super(price,name,isPopular,time);
         this.Director = Director;
         this.boxOffice = boxOffice;
     }
