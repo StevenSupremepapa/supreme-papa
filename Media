@@ -1,1 +1,6 @@
-
+public class Media{
+  public double price;
+  public String name;
+  public String Authur;
+  public boolean isPopular;
+}
