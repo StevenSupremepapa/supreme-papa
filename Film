@@ -1,1 +1,4 @@
-
+public class Film{
+public String Director;
+public double boxOffice;//million
+}
