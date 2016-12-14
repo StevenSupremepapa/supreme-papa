@@ -14,6 +14,17 @@ public class Painting
     price = 199.00;//million
     isTure = false;
   }
+  
+  public String getIsTrue()
+  {
+    return isTure;
+  }
+  
+  public String setIsTure(boolean myTure)
+  {
+    this.isTrue = myTure;
+  }
+  
   public String checkTure()
   {
     String msg = " ";
