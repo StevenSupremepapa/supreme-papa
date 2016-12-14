@@ -17,9 +17,9 @@ public class Film extends Media
         this.boxOffice = boxOffice;
     }
     
-    public String getMostPopularCommentInTheCinema()
+    public String getReview()
     {
-        return "The most popular comment in the cinema is: ";
+        return "it has some really catchy songs along the way.";
     }
     
     
