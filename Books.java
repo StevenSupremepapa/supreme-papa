@@ -19,9 +19,9 @@ public class Books extends Media
     
     
     
-    public String getMostPopularCommenForTheBook()
+    public String getReview()
     {
-        return "The most popular comment for the book is: ";
+        return " If so, our world won’t be simply be post-truth. It will be post-moral.";
     }
     
     public String toString()
