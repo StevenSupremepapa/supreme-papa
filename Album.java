@@ -17,7 +17,7 @@ public class Album extends Media
         this.winGoldenGlobeAward = winGoldenGlobeAward;
     }
     
-    public String getMostPopularCommentForHisOrHerMusic()
+    public String getComments()
     {
         return "The most popular comment for is or her music is: ";
     }
