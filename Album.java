@@ -17,9 +17,9 @@ public class Album extends Media
         this.winGoldenGlobeAward = winGoldenGlobeAward;
     }
     
-    public String getComments()
+    public String getReview()
     {
-        return "The most popular comment for is or her music is: ";
+        return "With this record, The Rolling Stones refuse to pass into legend, but instead linger on comfortably.";
     }
     
     
