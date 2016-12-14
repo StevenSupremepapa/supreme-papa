@@ -24,7 +24,10 @@ public class Painting
   {
     this.isTrue = myTure;
   }
-  
+  public String getReview()
+  {
+   return "That is really classic!"; 
+  }
   public String checkTure()
   {
     String msg = " ";
